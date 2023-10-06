@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -19,7 +20,7 @@
 }
 
 html {
-    
+    font-size: 62.5%;
 
     overflow-y: scroll;
 
@@ -29,7 +30,6 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     overflow-y: scroll; 
-    font-size: 10px;
 
 }
 
@@ -93,7 +93,6 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 0 9%;
-    height: 100vh;
 }
 
 
@@ -278,7 +277,6 @@ section {
     gap: 2rem;
     background: var(--second-bg-color);
     padding-bottom: 6rem;
-    height: 100vh;
 }
 
 .heading {
@@ -357,9 +355,7 @@ span {
     align-items: center;
     flex-direction: column;
     min-height: auto;
-    padding-bottom: 2rem;
-    height: 100vh;
-   
+    padding-bottom: 5rem;
 }
 
 .education .education-row {
@@ -449,7 +445,6 @@ span {
     min-height: auto;
     padding-bottom: 7rem;
     background: var(--second-bg-color);
-    height: 100vh;
 }
 
 .skills h2 {
@@ -560,7 +555,6 @@ span {
 .contact{
     min-height: auto;
     padding-bottom: 20rem;
-    height: 100vh;
 }
 
 .contact h2 {
@@ -592,9 +586,9 @@ span {
 .contact form .input-box .input-field input,
 .contact form .textarea-field textarea {
     width: 100%;
-    height: 100px;
+    height: 100%;
     padding: 1.5rem;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--text-color);
     background: transparent;
     border-radius: .6rem;
@@ -748,24 +742,11 @@ span {
     html {
         font-size: 55%;
     }
-    body {
-        font-size: 22px;
-    }
-
-    .contact form .input-box .input-field {
-        width: 100%;
-        font-size: 22px;
-    }
-    
 }
 
 @media (max-width: 991px) {
     .header {
         padding: 2rem 4%;
-    }
-
-    body {
-        font-size: 16px;
     }
 
     section {
@@ -779,27 +760,11 @@ span {
     .footer {
         padding: 2rem 4%;
     }
-
-    .contact form .input-box .input-field {
-        width: 100%;
-    }
-
-    .contact form .input-box .input-field {
-        width: 100%;
-        font-size: 16px;
-    }
-   
 }
 
 @media (max-width: 768px) {
-
-    body {
-        font-size: 14px;
-    }
-
     .header {
         background: var(--bg-color);
-        padding: 2rem 4%;
     }
 
     #menu-icon {
@@ -845,7 +810,7 @@ span {
 
     .navbar a {
         display: block;
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin: 3rem 0;
         transform: translatex(-20rem);
         transition: .25s ease;
@@ -856,11 +821,6 @@ span {
         transform: translatex(0);
         transition-delay: .25s;
     }
-    .contact form .input-box .input-field {
-        width: 100%;
-        font-size: 13px;
-    }
-   
 
 }
 
@@ -882,11 +842,6 @@ span {
         width: 38px;
         height: 38px;
     }
-    .contact form .input-box .input-field {
-        width: 100%;
-        font-size: 10px;
-    }
-    
 }
 
 @media (max-width: 462px) {
@@ -900,7 +855,6 @@ span {
 
     .contact form .input-box .input-field {
         width: 100%;
-        font-size: 8px;
     }
 
     .footer {
@@ -911,7 +865,6 @@ span {
         margin-top: 2rem;
         text-align: center;
     }
-    
 }
 
 @media (max-width: 371px) {
