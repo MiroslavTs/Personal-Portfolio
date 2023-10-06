@@ -798,6 +798,10 @@ span {
     .contact form .input-box .input-field {
         width: 100%;
     }
+
+    .contact {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -864,6 +868,9 @@ span {
     .navbar.active a {
         transform: translatex(0);
         transition-delay: .25s;
+    }
+    .contact {
+        font-size: 13px;
     }
 
 }
