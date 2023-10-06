@@ -30,7 +30,13 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     overflow-y: scroll; 
+    font-size: 100%;
 
+}
+
+.container {
+  width: 100%; 
+  height: 100vh; 
 }
 
 .header {
