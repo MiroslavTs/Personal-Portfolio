@@ -768,6 +768,10 @@ span {
     body {
         font-size: 22px;
     }
+
+    .contact {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 991px) {
