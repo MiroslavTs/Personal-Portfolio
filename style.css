@@ -893,6 +893,9 @@ span {
         width: 38px;
         height: 38px;
     }
+    .contact {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 462px) {
@@ -915,6 +918,9 @@ span {
     .footer p {
         margin-top: 2rem;
         text-align: center;
+    }
+    .contact {
+        font-size: 8px;
     }
 }
 
