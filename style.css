@@ -30,13 +30,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     overflow-y: scroll; 
-    font-size: 100%;
 
-}
-
-.container {
-  width: 100%; 
-  height: 100vh; 
 }
 
 .header {
@@ -546,12 +540,17 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 50%;
+    width: 20%;
     
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
     width: 50%;
+    
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
+    width: 60%;
     
 }
 
